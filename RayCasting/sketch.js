@@ -32,10 +32,7 @@ function draw() {
   }
   particle.update(mouseX, mouseY);
   // particle.update(noise(xoff)*width, noise(yoff)*height);
-
-  particle.show();
   particle.look(walls);
-
 
   xoff += 0.01;
   yoff += 0.01;
