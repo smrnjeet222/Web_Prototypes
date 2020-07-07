@@ -1,32 +1,31 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family:'Roboto', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 85vh;
-    background: #262626;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  background: #262626;
 }
-ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
-ul li{
-    list-style: none;
-    color: rgb(112, 231, 96);
-    font-size: 5em;
-    padding:10px;
-    margin:auto;
-    letter-spacing:8px;
-    filter: blur(0px);
-    transition: all 0.5s ease;
+ul li {
+  list-style: none;
+  color: rgb(112, 231, 96);
+  font-size: 5em;
+  padding: 10px;
+  margin: auto;
+  letter-spacing: 8px;
+  filter: blur(0px);
+  transition: all 0.5s ease;
 }
-ul li:hover
-{
-    transform: rotate(180deg) translate(-200px);
-    transition: all 0.5s ease;
-    filter: blur(20px);
-    opacity: 0;   
+ul li:hover {
+  transform: rotate(180deg) translate(-200px);
+  transition: all 0.5s ease;
+  filter: blur(20px);
+  opacity: 0;
 }
