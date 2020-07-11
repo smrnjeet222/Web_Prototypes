@@ -9,13 +9,13 @@ for i in range(len(data)):
     response_put = requests.put(BASE + f"/video/{i}", data[i])
     print("PUT", response_put.json())
 
+# input()
+
+# response_del = requests.delete(BASE + "/video/0")
+# print("DEL", response_del)
+
 input()
 
-response_del = requests.delete(BASE + "/video/0")
-print("DEL", response_del)
-
-input()
-
-for i in range(len(data)):
+for i in range(2*len(data)):
     response_get = requests.get(BASE + f"/video/{i}")
     print("GET", response_get.json())

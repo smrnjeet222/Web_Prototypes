@@ -6,3 +6,4 @@ node_modules
 RestAPI/flaskenv
 .vscode/
 acme/
+RestAPI/database.db
