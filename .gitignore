@@ -3,3 +3,6 @@
 *.sass.map
 *.scss.map
 node_modules    
+RestAPI/flaskenv
+.vscode/
+acme/
