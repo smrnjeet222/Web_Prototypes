@@ -4,7 +4,8 @@
   "description": "Some css web design prototypes",
   "main": "index.js",
   "scripts": {
-    "start": "node Express/index.js"
+    "start": "node Express/index.js",
+    "dev": "nodemon Express/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,12 @@
   },
   "homepage": "https://github.com/smrnjeet222/Web_Prototypes#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "moment": "^2.27.0",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
